@@ -1,0 +1,5 @@
+(defun c:GOODIES ()
+  (princ "\nOpening AutoCAD Goodies folder...")
+  (startapp "explorer" "C:\\Users\\justin\\Desktop\\01 Files\\02 Goodies\\AutoCAD")
+  (princ)
+)
